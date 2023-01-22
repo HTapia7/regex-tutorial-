@@ -1,6 +1,8 @@
-# Title (replace with your title)
+# Regular Expression - Matching an Email
 
-Introductory paragraph (replace this with your text)
+I will be creating a short tutorial using regex to match emails using the expression below: 
+
+/^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/
 
 ## Summary
 
@@ -23,6 +25,8 @@ Briefly summarize the regex you will be describing and what you will explain. In
 ## Regex Components
 
 ### Anchors
+
+The two anchors being used in this expression are Caret(^) and Dollar Sign($) located at the beginning and end of the expression. The Caret signifies the beginning and the Dollar Sign signifies the end of the expression.
 
 ### Quantifiers
 
